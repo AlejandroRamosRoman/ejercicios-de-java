@@ -1,0 +1,20 @@
+/**
+* diez palabras en ingles traducidas "Traducción"
+*
+* @Alejandro Ramos Román
+*/
+public class Traduccion { // Clase principal
+public static void main(String[] args) {
+System.out.println("red\t rojo");
+System.out.println("bed\t cama");
+System.out.println("arm\t brazo");
+System.out.println("maiden\t doncella");
+System.out.println("iron\t hierro");
+System.out.println("silver\t plata");
+System.out.println("steel\t acero");
+System.out.println("door\t puerta");
+System.out.println("window\t ventana");
+System.out.println("apple\t manzana");
+System.out.println("king\t rey");
+}
+}

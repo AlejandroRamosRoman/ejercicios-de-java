@@ -1,0 +1,10 @@
+/**
+* Muestra por pantalla mi nombre "Alejandro Ramos Román"
+*
+* @Alejandro Ramos Román
+*/
+public class MiNombre { // Clase principal
+public static void main(String[] args) {
+System.out.println("Alejandro Ramos Román");
+}
+}

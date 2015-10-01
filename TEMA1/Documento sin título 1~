@@ -1,0 +1,10 @@
+/**
+ * Muestra por pantalla la frase "¡Hola mundo!"
+ * @autor Alejandro Ramos
+ */
+
+public class HolaMundo { //clase principal 
+  public static void main (String [] args) {
+   System.out.printin("!Hola Mundo!");
+  }
+}
