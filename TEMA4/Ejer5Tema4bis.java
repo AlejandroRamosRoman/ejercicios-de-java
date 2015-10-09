@@ -4,7 +4,7 @@
 * @author Alejandro Ramos Román
 */
 
-public class Ejer5Tema4 {
+public class Ejer5Tema4bis {
   public static void main(String[] args) {
 
     String linea;
@@ -19,9 +19,13 @@ public class Ejer5Tema4 {
     double b;
     b = Double.parseDouble( linea );
 
+    if (a == 0)  {
+      System.out.println("a no puede ser 0, porque no da un resultado valido");
+    }
     
-
-  
-    System.out.printf("El valor de x es " + (-b/a));   
-  } 
+    else {
+    
+     System.out.printf("El valor de x es " + (-b/a));
+    } 
+  }
 }

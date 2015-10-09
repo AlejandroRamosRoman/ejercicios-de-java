@@ -16,13 +16,14 @@ public class Ejer2Tema4 {
     if ((x >12) && (x <=20))  {
       System.out.println("Buenas tardes");
      }
-    if ((x >20) && (x <=24))  {
+    if ((x >20) && (x <24))   {
       System.out.println("Buenas noches");
      }
-    if ((x >=0) && (x <6))  {
-      System.out.println("Buenas noches");    
+     if ((x >=0) && (x <6))  {
+      System.out.println("Buenas noches");
      }
-    if (x >24)  {
+  
+    if (x >=24)  {
       System.out.println("te has equivocado");  
      }
    }

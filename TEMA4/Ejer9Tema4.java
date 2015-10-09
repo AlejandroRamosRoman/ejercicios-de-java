@@ -23,13 +23,18 @@ public class Ejer9Tema4 {
     linea = System.console().readLine();
     double c;
     c = Double.parseDouble( linea );
-
     
-
-  
-    System.out.println("El 1º valor de x es " + ((Math.sqrt(b*b-4*a*c)-b)/2*a));
+    if (((b*b)-(4*a*c)) <= 0)  {
+      System.out.println("los valores de la ecuación no son validos ");
+    }
     
-    System.out.print("El 2º valor de x es " + ((Math.sqrt(b*b-4*a*c)+b)/2*a));
     
-  } 
+    
+    else {
+      System.out.println("El 1º valor de x es " + ((Math.sqrt(b*b-4*a*c)-b)/(2*a)));
+    
+      System.out.println("El 1º valor de x es " + ((-(Math.sqrt(b*b-4*a*c))-b)/(2*a)));
+    
+    } 
+  }
 }

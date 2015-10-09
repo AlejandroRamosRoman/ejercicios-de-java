@@ -4,7 +4,7 @@
  * @author Alejandro Ramos Román
  */
 
-public class Ejer10Tema4 {
+public class Ejer10Tema4Bis {
   public static void main(String[] args) {
   
     System.out.println(" Horoscopo");

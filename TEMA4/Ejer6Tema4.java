@@ -9,7 +9,7 @@ public class Ejer6Tema4 {
 
     String linea;
     
-    System.out.print("Por favor, introduce un valor para h ");
+    System.out.print("Por favor, introduce un valor para h en metros ");
     linea = System.console().readLine();
     double h;
     h = Double.parseDouble( linea );
@@ -21,7 +21,8 @@ public class Ejer6Tema4 {
     
     else {
     
-     System.out.println("El resultado de t es: " + (Math.sqrt(2*h/9.81)));   Math.sqrt
+     System.out.println("El resultado de t es: " + (Math.sqrt(2*h/9.81)));   
+     
     } 
  }
 }
