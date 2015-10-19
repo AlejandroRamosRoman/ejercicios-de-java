@@ -20,7 +20,7 @@ public class Ejer11Tema4 {
     int segundos;
     segundos = (86400-((hora*3600)+(minutos*60)));
     
-     if  (segundos >=0) {
+     if ((segundos >=0) && (hora >=0) && (minutos >=0) && (minutos <60)) {
       System.out.println(" los segundos que quedan son: " + segundos);
       }
       
